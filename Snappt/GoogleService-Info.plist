@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>22948742209-l8j5uc67tilvib3bh7fe9vrfael2qu86.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.22948742209-l8j5uc67tilvib3bh7fe9vrfael2qu86</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBpKRjL6RzBOS6XK11_uYj-WlgS6xzXBQ8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>22948742209</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.MackenzieBryant.Snappt</string>
+	<key>PROJECT_ID</key>
+	<string>snappt-e98a8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>snappt-e98a8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:22948742209:ios:2ebb6bea435796924432c0</string>
+	<key>DATABASE_URL</key>
+	<string>https://snappt-e98a8.firebaseio.com</string>
+</dict>
+</plist>

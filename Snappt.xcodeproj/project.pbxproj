@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		876ED64648CE1150AE61FADE /* Pods_Snappt_SnapptUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5DC09C85D99FD56107BE60C /* Pods_Snappt_SnapptUITests.framework */; };
+		D68B16DEA17872F398BCA1B6 /* Pods_Snappt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F29E4527AD80690D027CE7 /* Pods_Snappt.framework */; };
 		EF271A08245DCB0600F47C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF271A07245DCB0600F47C9F /* AppDelegate.swift */; };
 		EF271A0A245DCB0600F47C9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF271A09245DCB0600F47C9F /* SceneDelegate.swift */; };
 		EF271A0D245DCB0600F47C9F /* Snappt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF271A0B245DCB0600F47C9F /* Snappt.xcdatamodeld */; };
@@ -15,6 +17,7 @@
 		EF271A14245DCB0700F47C9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF271A13245DCB0700F47C9F /* Preview Assets.xcassets */; };
 		EF271A17245DCB0700F47C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF271A15245DCB0700F47C9F /* LaunchScreen.storyboard */; };
 		EF271A22245DCB0700F47C9F /* SnapptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF271A21245DCB0700F47C9F /* SnapptUITests.swift */; };
+		EF271A2D245DCBA800F47C9F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF271A2C245DCBA800F47C9F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5AFEE761DAAA92022FF7844C /* Pods-Snappt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snappt.debug.xcconfig"; path = "Target Support Files/Pods-Snappt/Pods-Snappt.debug.xcconfig"; sourceTree = "<group>"; };
+		63922BE91652CCA01CF2ADBA /* Pods-Snappt-SnapptUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snappt-SnapptUITests.debug.xcconfig"; path = "Target Support Files/Pods-Snappt-SnapptUITests/Pods-Snappt-SnapptUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		873CAD73AF76533DC983983D /* Pods-Snappt-SnapptUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snappt-SnapptUITests.release.xcconfig"; path = "Target Support Files/Pods-Snappt-SnapptUITests/Pods-Snappt-SnapptUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CBAEE1328B99088E9F307DF7 /* Pods-Snappt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snappt.release.xcconfig"; path = "Target Support Files/Pods-Snappt/Pods-Snappt.release.xcconfig"; sourceTree = "<group>"; };
+		D0F29E4527AD80690D027CE7 /* Pods_Snappt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snappt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DC09C85D99FD56107BE60C /* Pods_Snappt_SnapptUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snappt_SnapptUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF271A04245DCB0600F47C9F /* Snappt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snappt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF271A07245DCB0600F47C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF271A09245DCB0600F47C9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +49,7 @@
 		EF271A1D245DCB0700F47C9F /* SnapptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapptUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF271A21245DCB0700F47C9F /* SnapptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapptUITests.swift; sourceTree = "<group>"; };
 		EF271A23245DCB0700F47C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF271A2C245DCBA800F47C9F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D68B16DEA17872F398BCA1B6 /* Pods_Snappt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +65,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				876ED64648CE1150AE61FADE /* Pods_Snappt_SnapptUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BB09A0978C61486A089F152 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5AFEE761DAAA92022FF7844C /* Pods-Snappt.debug.xcconfig */,
+				CBAEE1328B99088E9F307DF7 /* Pods-Snappt.release.xcconfig */,
+				63922BE91652CCA01CF2ADBA /* Pods-Snappt-SnapptUITests.debug.xcconfig */,
+				873CAD73AF76533DC983983D /* Pods-Snappt-SnapptUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B71A9B272E07A88DEB3515C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0F29E4527AD80690D027CE7 /* Pods_Snappt.framework */,
+				D5DC09C85D99FD56107BE60C /* Pods_Snappt_SnapptUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EF2719FB245DCB0600F47C9F = {
 			isa = PBXGroup;
 			children = (
 				EF271A06245DCB0600F47C9F /* Snappt */,
 				EF271A20245DCB0700F47C9F /* SnapptUITests */,
 				EF271A05245DCB0600F47C9F /* Products */,
+				7BB09A0978C61486A089F152 /* Pods */,
+				B71A9B272E07A88DEB3515C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +123,7 @@
 				EF271A15245DCB0700F47C9F /* LaunchScreen.storyboard */,
 				EF271A18245DCB0700F47C9F /* Info.plist */,
 				EF271A0B245DCB0600F47C9F /* Snappt.xcdatamodeld */,
+				EF271A2C245DCBA800F47C9F /* GoogleService-Info.plist */,
 				EF271A12245DCB0700F47C9F /* Preview Content */,
 			);
 			path = Snappt;
@@ -117,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF271A26245DCB0700F47C9F /* Build configuration list for PBXNativeTarget "Snappt" */;
 			buildPhases = (
+				AD71AF7FC2F6D22B43D3146D /* [CP] Check Pods Manifest.lock */,
 				EF271A00245DCB0600F47C9F /* Sources */,
 				EF271A01245DCB0600F47C9F /* Frameworks */,
 				EF271A02245DCB0600F47C9F /* Resources */,
+				F2D4463BB461884720BB9A7F /* [CP] Embed Pods Frameworks */,
+				3E3A04C34A8FF123697E0EDD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF271A29245DCB0700F47C9F /* Build configuration list for PBXNativeTarget "SnapptUITests" */;
 			buildPhases = (
+				6DB18CCB07739973A749D195 /* [CP] Check Pods Manifest.lock */,
 				EF271A19245DCB0700F47C9F /* Sources */,
 				EF271A1A245DCB0700F47C9F /* Frameworks */,
 				EF271A1B245DCB0700F47C9F /* Resources */,
+				7125BF8FD407827A882FB86F /* [CP] Embed Pods Frameworks */,
+				C284A3FD952467E9AEDBAB8E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF271A17245DCB0700F47C9F /* LaunchScreen.storyboard in Resources */,
+				EF271A2D245DCBA800F47C9F /* GoogleService-Info.plist in Resources */,
 				EF271A14245DCB0700F47C9F /* Preview Assets.xcassets in Resources */,
 				EF271A11245DCB0700F47C9F /* Assets.xcassets in Resources */,
 			);
@@ -205,6 +248,121 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E3A04C34A8FF123697E0EDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snappt/Pods-Snappt-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snappt/Pods-Snappt-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Snappt/Pods-Snappt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DB18CCB07739973A749D195 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snappt-SnapptUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7125BF8FD407827A882FB86F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snappt-SnapptUITests/Pods-Snappt-SnapptUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snappt-SnapptUITests/Pods-Snappt-SnapptUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Snappt-SnapptUITests/Pods-Snappt-SnapptUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD71AF7FC2F6D22B43D3146D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Snappt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C284A3FD952467E9AEDBAB8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snappt-SnapptUITests/Pods-Snappt-SnapptUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snappt-SnapptUITests/Pods-Snappt-SnapptUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Snappt-SnapptUITests/Pods-Snappt-SnapptUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2D4463BB461884720BB9A7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snappt/Pods-Snappt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Snappt/Pods-Snappt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Snappt/Pods-Snappt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EF271A00245DCB0600F47C9F /* Sources */ = {
@@ -364,6 +522,7 @@
 		};
 		EF271A27245DCB0700F47C9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AFEE761DAAA92022FF7844C /* Pods-Snappt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -384,6 +543,7 @@
 		};
 		EF271A28245DCB0700F47C9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBAEE1328B99088E9F307DF7 /* Pods-Snappt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -404,6 +564,7 @@
 		};
 		EF271A2A245DCB0700F47C9F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63922BE91652CCA01CF2ADBA /* Pods-Snappt-SnapptUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -424,6 +585,7 @@
 		};
 		EF271A2B245DCB0700F47C9F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 873CAD73AF76533DC983983D /* Pods-Snappt-SnapptUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
